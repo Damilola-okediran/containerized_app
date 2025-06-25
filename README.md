@@ -1,20 +1,19 @@
-# My K8s App
+My K8s App
 
 This is a simple Python Flask application that runs on Kubernetes.
 This shows it's implementation using AWS EKS.
-## What It Does
+What It Does
 
-- Displays a message in the browser.
-- Containerized with Docker.
-- Deployed to a Kubernetes cluster on AWS (EKS).
+. Displays a message in the browser.
+. Containerized with Docker.
+. Deployed to a Kubernetes cluster on AWS (EKS).
 
-# EKS cluster creation.
-- Terraform
+EKS cluster creation.
+. Terraform
 
-## How to Run
+How to Run
 
-1. **Build the Docker image**:
-   ```bash
+1. Build the Docker image**:
    docker build -t git_username/git_directory:latest .
 
 2. Push to Docker Hub:
